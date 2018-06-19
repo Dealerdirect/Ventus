@@ -2615,6 +2615,7 @@ define('ventus/wm/windowmanager', [
             element.setAttribute('height', '100%');
             element.setAttribute('data-url', url);
             element.setAttribute('src', url);
+            element.setAttribute('frameBorder', '0');
             element.innerHTML = fallbackContent;
         } else {
             options.xhr = {

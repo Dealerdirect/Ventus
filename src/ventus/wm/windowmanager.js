@@ -239,6 +239,7 @@ function($, Window, View, DefaultMode, ExposeMode, FullscreenMode) {
 				element.setAttribute('height', '100%');
 				element.setAttribute('data-url', url);
 				element.setAttribute('src', url);
+				element.setAttribute('frameBorder', '0');
 				element.innerHTML = fallbackContent;
 		} else {
 			options.xhr = {
