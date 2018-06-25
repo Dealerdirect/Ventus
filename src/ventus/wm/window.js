@@ -39,17 +39,10 @@ function(Emitter, Promise, View, WindowTemplate) {
 			classname: '',
 			stayinspace: false,
     };
-<<<<<<< HEAD
-    
-		if (options.animations) {
-			options.classname + ' animated';
-		}
-=======
 
     if (options.animations) {
       options.classname + ' animated';
     }
->>>>>>> ventus/master
 
 		// View
 		this.el = View(WindowTemplate({
