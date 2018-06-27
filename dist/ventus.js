@@ -1240,7 +1240,7 @@ define('ventus/wm/window', [
                         this.slots.move.call(this, e);
                     }
                 },
-                '.wm-window-title dblclick': function () {
+                '.wm-window-title h1 dblclick': function () {
                     if (this.enabled && this.resizable) {
                         this.maximize();
                     }
