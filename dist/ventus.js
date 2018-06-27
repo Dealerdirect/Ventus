@@ -1123,7 +1123,7 @@ define('ventus/tpl/window', ['handlebars'], function (Handlebars) {
                 'name': 'title',
                 'hash': {},
                 'data': data
-            }) : helper)) + '</h1>\n\t\t\t<div class="wm-button-group">\n\t\t\t\t<button class="wm-minimize">&nbsp;</button>\n\t\t\t\t<button class="wm-maximize">&nbsp;</button>\n\t\t\t\t<button class="wm-close">&nbsp;</button>\n\t\t\t</div>\n\t\t</header>\n\n\t\t<section class="wm-content"></section>\n\n\t\t<button class="wm-resize">&nbsp;</button>\n\t</div>\n\t<div class="wm-window-overlay"></div>\n</div>\n';
+            }) : helper)) + '</h1>\n\t\t\t<div class="wm-button-group">\n\t\t\t\t<button class="wm-minimize">&nbsp;</button>\n\t\t\t\t<button class="wm-maximize">&nbsp;</button>\n\t\t\t\t<button class="wm-close">&nbsp;</button>\n\t\t\t</div>\n\t\t</header>\n\n\t\t<section class="wm-content">\n\t\t</section>\n\n\t\t<div class="wm-loader ui active inverted dimmer">\n\t\t\t<div class="ui large text loader">Loading</div>\n\t\t</div>\n\n\t\t<button class="wm-resize">&nbsp;</button>\n\t</div>\n\t<div class="wm-window-overlay"></div>\n</div>\n';
         },
         'useData': true
     });
